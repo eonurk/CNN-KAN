@@ -25,6 +25,7 @@ Test set: Average loss: 0.0007, Accuracy: 9620/10000 (96%)
 * 2 KAN layers were more stable than a single one.
 
 ## Acknowledgement
-Original work: [pyKAN](https://github.com/KindXiaoming/pykan)
 
-Fourier coef:  [FourierKAN](https://github.com/GistNoesis/FourierKAN/)
+Kolmogorov Arnold Networks (Original work): [pyKAN](https://github.com/KindXiaoming/pykan)
+
+Fourier coefficient instead of splines:  [FourierKAN](https://github.com/GistNoesis/FourierKAN/)
