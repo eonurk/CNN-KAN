@@ -1,5 +1,5 @@
 # CNN + KAN
-Single epoch CNN+KAN trial with 96% accuracy. You could give it a shot with the Colab link. 
+Single epoch CNN+KAN trial on MNIST with 96% accuracy. You could give it a shot with the Notebook or via the [Colab](https://colab.research.google.com/drive/1eMnGUOYeoShR7n1KkLgTt985qtursDY6#scrollTo=QaUPxiJleN-D) link. 
 
 ## Remarks
 * Loss is very unstable. 
