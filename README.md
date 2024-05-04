@@ -1,9 +1,9 @@
-# CNN + KAN
+# CNN-KAN
 Single epoch CNN+KAN trial on MNIST with 96% accuracy. You could give it a shot with the Notebook or via the [Colab](https://colab.research.google.com/drive/1eMnGUOYeoShR7n1KkLgTt985qtursDY6#scrollTo=QaUPxiJleN-D) link. 
 
 ## Remarks
-* Loss is very unstable. 
-  Maybe its related to parameter settings, however whenever I try few epochs (3+) weights kept exploding.
+* Loss is very unstable.
+> Maybe its related to parameter settings, however whenever I try few epochs (3+) weights kept exploding.
 
 ```
 Train Epoch: 0 [0000/6000 (00%)]	Loss: 1.662824
@@ -20,7 +20,9 @@ Train Epoch: 0 [5760/6000 (96%)]	Loss: 0.064992
 Test set: Average loss: 0.0007, Accuracy: 9620/10000 (96%)
 ```
 
-* Other backprops algorithms I tried do not work.
+* Other backprop algorithms I tried did not work.
+* SeLu instead of ReLu like usual.
+* 2 KAN layers were more stable than a single one.
 
 ## Acknowledgement
 Original work: [pyKAN](https://github.com/KindXiaoming/pykan)
