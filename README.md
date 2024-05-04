@@ -6,8 +6,8 @@ Single epoch CNN+KAN trial on MNIST with 96% accuracy. You could give it a shot 
   Maybe its related to parameter settings, however whenever I try few epochs (3+) weights kept exploding.
 
 ```
-Train Epoch: 0 [0/6000 (0%)]	    Loss: 1.662824
-Train Epoch: 0 [640/6000 (11%)]	  Loss: 0.500479
+Train Epoch: 0 [0/6000 (0%)]	      Loss: 1.662824
+Train Epoch: 0 [640/6000 (11%)]	    Loss: 0.500479
 Train Epoch: 0 [1280/6000 (21%)]	Loss: 0.287909
 Train Epoch: 0 [1920/6000 (32%)]	Loss: 0.221105
 Train Epoch: 0 [2560/6000 (43%)]	Loss: 0.107704
